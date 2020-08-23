@@ -35,7 +35,7 @@ label {
 button
 {
    width:3%; 
-    
+   border-radius:50%; 
 }
 .search
 {
@@ -49,14 +49,12 @@ article
 display:flex;
 margin-left:205px;
 }
-
 .one
 {
     display:flex;
 }
 .bloc-menu-one, .bloc-menu-two, .bloc-menu-three, .bloc-menu-four
 {
-    
     width:25%;
     text-align:center;
     height:355px;
@@ -67,8 +65,6 @@ margin-left:205px;
 {   
     background-color:#fcdfdb;
     font-family: 'Balsamiq Sans', cursive;
-    
-    
 }
 .bloc-menu-one h2
 {
@@ -80,7 +76,6 @@ margin-left:205px;
 {
     color:black;
 }
-
 .bloc-menu-two
 {
     background-color:#fff5fe;
@@ -88,9 +83,9 @@ margin-left:205px;
 }
 .bloc-menu-two h2
 {
-    background: -webkit-linear-gradient(right, rgb(216, 133, 46) 0%, rgb(133, 49, 253) 100%);
-   -webkit- background-clip: text;
-    -webkit- text-fill-color:transparent;
+   background: -webkit-linear-gradient(right, rgb(216,133,46) 0%, rgb(133, 49,253) 100%);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
     font-family: 'Playfair Display', serif;
 }
 .bloc-menu-two h3
@@ -101,6 +96,32 @@ margin-left:205px;
 {
     background-color:#f9f9f9;
     font-family: 'Balsamiq Sans', cursive;
+}
+.bloc-menu-three h2
+{
+    font-family: 'Dancing Script', cursive;
+      background: -webkit-linear-gradient(right, rgb(4, 48, 223) 0%, rgb(108,179,249) 100%);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+}
+.bloc-menu-three h3
+{
+    font-family: 'Nothing You Could Do', cursive;
+      background: -webkit-linear-gradient(right, rgb(4, 48, 223) 0%, rgb(108,179,249) 100%);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+}
+.bloc-menu-four h2
+{
+    font-family: 'Nothing You Could Do', cursive;
+    background: -webkit-linear-gradient(right, rgb(66,151,60) 0%, rgb(191,255,126) 100%);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+}
+.bloc-menu-four h3
+{
+    font-family: 'Nothing You Could Do', cursive;
+    color:#72bf56;
 }
 .bloc-menu-four
 {
@@ -121,7 +142,6 @@ margin-left:205px;
 }
 aside
 {
-    
     border:1px solid #579c87;
     background-color:#579c87;
     color:#fdcb46;
@@ -135,8 +155,6 @@ aside
     box-shadow: 0 0 5px rgba( 0, 0, 0, 0.5),
                 0 -1px 0 rgba( 255, 255, 255, 0.4);
     font-size:25px;
-                 
-
 }
 main{
     padding-bottom: 150px;

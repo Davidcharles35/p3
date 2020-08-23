@@ -27,6 +27,8 @@ width:70%;
 background-color:#fcdfdb;
 margin:100px auto;
 padding:100px;
+font-family: 'Great Vibes', cursive;
+font-size:30px;
 }
 .title
 {
@@ -85,6 +87,26 @@ color:black;
 {
     margin:0;
     padding:0 30px 0 30px;
+}
+.descriptive
+{
+    width:65%;
+    padding-left:50px;
+}
+.price
+{
+    width:20%;
+    text-align:right;
+}
+.entree-content
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.dish-content
+{
+    display: flex;
+    flex-wrap: wrap;
 }
 img
 {

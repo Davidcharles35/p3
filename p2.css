@@ -11,6 +11,7 @@ header
     height:105px;
     text-align: center;
     padding-top:5px; 
+    font-family: 'Roboto', sans-serif;
 }
 a{
     text-decoration: none;
@@ -19,16 +20,16 @@ h1
 {
     color:#fdcb46;
     font-size:45px;
-   font-family: 'Roboto', sans-serif;
+   
 }
 .page
 {
 width:70%;
-background-color:#fcdfdb;
+background-color:#fff5fe;
 margin:100px auto;
-padding:100px;
-font-family: 'Great Vibes', cursive;
-font-size:30px;
+padding:80px;
+font-family: 'Playfair Display', cursive;
+font-size:20px;
 box-shadow: 8px 8px 12px #aaa;
 }
 .title
@@ -37,7 +38,7 @@ box-shadow: 8px 8px 12px #aaa;
     font-size:40px;
     padding:80px 0 0 0;
     font-weight:bold;
-    font-family: 'Roboto', sans-serif;
+    
 }
 .high
 {
@@ -45,49 +46,48 @@ box-shadow: 8px 8px 12px #aaa;
 }
 .high h1
 {
-font-size:50px;
-font-family: 'Great Vibes', cursive;
-color:black;
-}
-.high i
-{
-    font-size:70px;
-    background: -webkit-linear-gradient(right, rgb(241, 88, 97) 0%, rgb(247, 143, 106) 100%);
+background: -webkit-linear-gradient(right, rgb(216,133,46) 0%, rgb(133, 49,253) 100%);
     -webkit-text-fill-color:transparent;
     -webkit-background-clip: text;
+    font-family: , serif;
+
 }
 .entree-title
 {
     display:flex;
-    padding:20px 30px 10px 75px;
+    padding:20px 30px 10px 15px;
+    color:#cd8430;
     
 }
 .dish-title
 {
     display:flex;
-    padding:20px 20px 10px 75px;
-    
+     padding:20px 30px 10px 15px;
+     color:#a56799
 }
 .dessert-title
 {
     display:flex;
-    padding:20px 30px 10px 75px;
+      padding:20px 30px 10px 15px;
     
 }
 .entree-title h2
 {
     margin:0;
-    padding:0 80px 0 80px;
+    font-size:22px;
 }
 .dish-title h2
 {
     margin:0;
-    padding:0 50px 0 50px;
+    padding:0 35px;
+    font-size:22px;
 }
 .dessert-title h2
 {
     margin:0;
-    padding:0 30px 0 30px;
+    padding:0 15px;
+    font-size:22px;
+    color:#6e4ccc;
 }
 .descriptive
 {
@@ -103,33 +103,28 @@ color:black;
 {
     display: flex;
     flex-wrap: wrap;
+    color:#cd8430;
+    
+
 }
 .dish-content
 {
     display: flex;
     flex-wrap: wrap;
+    color:#a56799;
 }
 img
 {
     width:200px;
+    margin:0;
+}
+.dessert
+{
+    color:#6e4ccc;
 }
 .dessert-content .descriptive
 {
     width:100%;
-}
-.after
-{
-    display:flex;
-    padding-left: 250px;
-}
-.after i
-{
-    padding-top: 40px;
-    padding-right:40px;
-    background: -webkit-linear-gradient(right, rgb(241, 88, 97) 0%, rgb(247, 143, 106) 100%);
-    -webkit-text-fill-color:transparent;
-    -webkit-background-clip: text;
-    font-size:40px;
 }
 footer
 {

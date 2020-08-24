@@ -75,19 +75,25 @@ background: -webkit-linear-gradient(right, rgb(216,133,46) 0%, rgb(133, 49,253) 
 {
     margin:0;
     font-size:22px;
+    width:260px;
+    text-align: center;
 }
 .dish-title h2
 {
     margin:0;
     padding:0 35px;
     font-size:22px;
+     width:260px;
+     text-align: center;
 }
 .dessert-title h2
 {
     margin:0;
     padding:0 15px;
     font-size:22px;
+     width:260px;
     color:#6e4ccc;
+    text-align: center;
 }
 .descriptive
 {
@@ -115,7 +121,7 @@ background: -webkit-linear-gradient(right, rgb(216,133,46) 0%, rgb(133, 49,253) 
 }
 img
 {
-    width:200px;
+    width:100%;
     margin:0;
 }
 .dessert
@@ -129,7 +135,7 @@ img
 footer
 {
     display:flex;
-    height:80px;
+    height:50px;
     background-color:#579c87;
     font-family: 'Roboto', sans-serif;
     font-size:20px;
@@ -137,6 +143,7 @@ footer
     bottom:0;
     width:1220px;
     margin-top:150px;
+    padding-bottom: 15px;
 }
 .link{
     color:#fdcb46; 

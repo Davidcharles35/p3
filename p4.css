@@ -24,10 +24,9 @@ h1
 .page
 {
 width:70%;
-background-color:#fff5fe;
 margin:100px auto;
 padding:80px;
-font-size:20px;
+font-size:15px;
 box-shadow: 8px 8px 12px #aaa;
 font-family: 'Architects Daughter', cursive;
 color:black;
@@ -46,12 +45,12 @@ color:black;
 }
 .high h1
 {
- background: -webkit-linear-gradient(right, rgb(4, 48, 223) 0%, rgb(108,179,249) 100%);
+background: -webkit-linear-gradient(right, rgb(66,151,60) 0%, rgb(191,255,126) 100%);
     -webkit-text-fill-color:transparent;
     -webkit-background-clip: text;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Kaushan Script', cursive;
     font-size:67px;
-    
+    margin-top:0;
 }
 .entree-title
 {
@@ -78,6 +77,7 @@ color:black;
     font-size:22px;
     width:250px;
     padding:0 25px;
+    text-align:center;
 }
 
 .dish-title h2
@@ -86,6 +86,7 @@ color:black;
     padding:0 35px;
     font-size:22px;
     width:220px;
+    text-align:center;
 }
 .dessert-title h2
 {
@@ -97,13 +98,15 @@ color:black;
 }
 .descriptive
 {
-    width:65%;
-    padding-left:50px;
+    width:75%;
+    padding-left:25px;
+    padding-right:15%;
 }
 .price
 {
-    width:20%;
+    
     text-align:right;
+
 }
 .entree-content, .dish-content, .dessert-content
 {
@@ -122,7 +125,7 @@ img
 footer
 {
     display:flex;
-    height:80px;
+    height:50px;
     background-color:#579c87;
     font-family: 'Roboto', sans-serif;
     font-size:20px;
@@ -130,6 +133,7 @@ footer
     bottom:0;
     width:1220px;
     margin-top:150px;
+    padding-bottom: 15px;
 }
 .link{
     color:#fdcb46; 

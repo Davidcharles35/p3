@@ -134,7 +134,7 @@ img
 footer
 {
     display:flex;
-    height:80px;
+    height:50px;
     background-color:#579c87;
     font-family: 'Roboto', sans-serif;
     font-size:20px;
@@ -142,6 +142,8 @@ footer
     bottom:0;
     width:1220px;
     margin-top:150px;
+    padding-bottom: 15px;
+    
 }
 .link{
     color:#fdcb46; 

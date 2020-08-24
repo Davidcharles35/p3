@@ -283,3 +283,22 @@ footer
     width:50%;
     text-align:center;
 }
+.footer-line:hover{
+    animation: bounce 1s linear;
+}
+@keyframes bounce{
+
+    20%,50%,80%,to{
+
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-30px);
+    }
+    70%{
+        transform: translateY(-5px);
+    }
+    90%{
+        transform: translateY(-4px);
+    }
+}

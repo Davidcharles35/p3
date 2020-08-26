@@ -194,3 +194,107 @@ aside
 a{
     color:#fdcb46;
 }
+@media screen and (min-width:320px) and (max-width:900px){
+    body
+    {
+        margin-left:0;
+        margin-right:0;
+    }
+
+    header{
+        width:100%;
+        
+    }
+    footer
+    {
+        width:100%;
+        
+    }
+    .title
+    {
+        font-size:25px;
+    }
+    .page
+    {
+        padding:5px;
+        font-size:20px;
+
+    }
+    .high h1
+    {
+        font-size:30px;
+    }
+    .high i
+    {
+        font-size:50px;
+       padding-top:20px;
+    }
+    .price
+    {
+        text-align:center;
+        padding:auto;
+    }
+    .descriptive
+    {
+        padding-left:1px;
+    }
+    .entree-title{
+        padding:0;
+    }
+    .dish-title
+    {
+        padding:0;
+
+    }
+    .dessert-title
+    {
+        padding:0;
+    }
+    .entree-title h2
+    {
+        width:20%;
+        padding-left:20%;
+    }
+    .dish-title h2
+    {
+        width:20%;
+        padding:0 0 0 20%;
+
+        
+    }
+    .dessert-title h2
+    {
+        width:20%;
+        padding:0 0 0 20%;
+       }
+    img
+    {
+        width:100%;
+    }
+    aside
+    {
+        width:40%;
+    }
+    h2:after
+    {
+        display:none;
+    }
+    .after
+    {
+        padding-left:0;
+
+        width:100%;
+        flex-direction: column;
+        text-align:center;
+
+
+    }
+    .entree-content, .dish-content, .dessert-content
+    {
+        padding:20px;
+    }
+    h2
+    {
+        text-align:center;
+    }
+}

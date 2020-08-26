@@ -56,7 +56,23 @@ color:black;
 .page h1 
 {
   font-family: 'Black Ops One', cursive;
+  padding:0 10%;
 }
+.page h1:after {
+    content: '';
+    display: block;
+    bottom: 2px;
+    width: 0%;
+    left: 0px;
+    height: 4px;
+    transition: 0.25s cubic-bezier(0.72,-0.01, 0.19, 0.92);
+    background: #fdcb46;
+}
+
+
+.page h1:hover:after {
+        width: 100%;
+    }
 footer
 {
     display:flex;
@@ -117,3 +133,19 @@ aside
 a{
     color:#fdcb46;
 }
+@media screen and (min-width:320px) and (max-width:900px){
+    body
+    {
+        margin-left:0;
+        margin-right:0;
+    }
+
+    header{
+        width:100%;
+        
+    }
+    footer
+    {
+        width:100%;
+        
+    }

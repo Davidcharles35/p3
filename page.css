@@ -302,3 +302,49 @@ footer
         transform: translateY(-4px);
     }
 }
+@media screen and (min-width:320px) and (max-width:900px){ 
+  body
+  {
+    margin:0;
+  }
+  header
+  {
+    width:100%;
+  }
+  footer
+  {
+    width:100%;
+  }
+  article{
+    display:flex;
+    flex-direction:column;
+    margin-left:0;
+    margin-right:0;
+
+    
+  }
+  .bloc-menu-one, .bloc-menu-two, .bloc-menu-three, .bloc-menu-four
+  {
+    width:75%;
+    height:400px;
+    margin:13%;
+  }
+  aside
+  {
+    font-size:13px;
+  }
+  button
+  {
+    width:6%;
+  }
+}
+@media screen and (min-width:1200px) and (max-width:1400px){
+  article{
+    margin-left:13%;
+  }
+}
+@media screen and (min-width:901px) and (max-width:1199px){
+  article{
+  margin:9%;
+  }
+}

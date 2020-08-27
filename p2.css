@@ -278,6 +278,7 @@ a{
     {
         padding:5px;
         font-size:20px;
+        width:85%;
 
     }
     .high h1
@@ -293,39 +294,43 @@ a{
     {
         text-align:center;
         padding:auto;
+        margin:auto;
     }
     .descriptive
     {
         padding-left:1px;
+        width:100%;
     }
     .entree-title{
-        padding:0;
+        padding:20px;
+        display:block;
     }
     .dish-title
     {
-        padding:0;
+        padding:20px;
+        display:block;
 
     }
     .dessert-title
     {
-        padding:0;
+        padding:20px;
+        display:block;
     }
     .entree-title h2
     {
-        width:20%;
-        padding-left:10%;
+        width:auto;
     }
     .dish-title h2
     {
-        width:20%;
+
         padding:0 0;
 
         
     }
     .dessert-title h2
     {
-        width:20%;
         padding:0 0;
+        width:auto;
        }
     img
     {
@@ -342,14 +347,14 @@ a{
     .after
     {
         padding-left:0;
-
         width:100%;
         flex-direction: column;
         text-align:center;
 
 
     }
-    .entree-content, .dish-content, .dessert-content
+    .entree-content,.dish-content,.dessert-content
     {
-        padding:20px;
+        text-align: center;
     }
+   

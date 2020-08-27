@@ -220,6 +220,7 @@ a{
     {
         padding:5px;
         font-size:20px;
+        width:85%;
 
     }
     .high h1
@@ -235,38 +236,44 @@ a{
     {
         text-align:center;
         padding:auto;
+        margin:auto;
     }
     .descriptive
     {
-        padding-left:1px;
-        padding-right:5%;
+        width:100%;
+        padding:2%;
+        text-align: center;
+        
     }
     .entree-title{
+        display:block;
         padding:0;
     }
     .dish-title
     {
         padding:0;
+        display:block;
 
     }
     .dessert-title
     {
         padding:0;
+        display:block;
     }
     .entree-title h2
     {
-        width:20%;
+        width:auto;
         
     }
     .dish-title h2
     {
-        width:20%;
+        width:auto;
         padding: 0 35px; 
     }
     .dessert-title h2
     {
-        width:20%;
-        padding:0 0 0 20%;
+        width:auto;
+       
        }
     img
     {
@@ -287,12 +294,6 @@ a{
         width:100%;
         flex-direction: column;
         text-align:center;
-
-
-    }
-    .entree-content, .dish-content, .dessert-content
-    {
-        padding:20px;
     }
     h2
     {

@@ -229,11 +229,14 @@ a{
     .title
     {
         font-size:25px;
+        padding:50px 0 0 0;
     }
     .page
     {
+        width:85%;
         padding:5px;
         font-size:20px;
+        margin:50px auto;
 
     }
     .high h1
@@ -249,32 +252,41 @@ a{
     {
         text-align:center;
         padding:auto;
+        margin:auto;
     }
     .descriptive
     {
         padding-left:1px;
+        width:100%;
     }
     .entree-title{
         padding:0;
+        display:block;
+        text-align: center;
     }
     .dish-title
     {
         padding:0;
+        display:block;
+        text-align: center;
 
+    }
+    .dish-title h2
+    {
+        width:auto;
+    }
+    .dessert-title h2
+    {
+        width:auto;
     }
     .dessert-title
     {
         padding:0;
+        display:block;
+        text-align: center;
     }
-    .dish-title h2
-    {
-        width:20%;
-        
-    }
-    .dessert-title h2
-    {
-        width:20%;
-       }
+   
+
     aside
     {
         width:40%;

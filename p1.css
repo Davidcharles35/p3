@@ -12,7 +12,8 @@ header
     text-align: center;
     padding-top:5px; 
 }
-a{
+a
+{
     text-decoration: none;
 }
 h1
@@ -144,8 +145,7 @@ footer
     bottom:0;
     width:80%;
     margin-top:150px;
-    padding-bottom: 15px;
-    
+    padding-bottom: 15px; 
 }
 .link{
     color:#fdcb46; 
@@ -155,7 +155,6 @@ footer
     width:50%;
     text-align:center;
 }
-
 h2:after {
     content: '';
     display: block;
@@ -165,9 +164,8 @@ h2:after {
     transition: 0.25s linear;
     background: black;
 }
-
-
-h2:hover:after {
+h2:hover:after
+    {
         width: 100%;
     }
 aside
@@ -185,12 +183,11 @@ aside
     margin-bottom:100px;
     margin-left:auto;
     margin-right:auto;
-
 }
-a{
+a
+{
     color:#fdcb46;
 }
-
 .footer__title:hover{
     animation: shake 0.8s;
     animation-iteration-count:infinite;
@@ -209,14 +206,12 @@ a{
   90% {transform:translate(-2px,-2px);}
   100% {transform:translate(2px,2px);}
  }
-
 @media screen and (min-width:320px) and (max-width:900px){
     body
     {
         margin-left:0;
         margin-right:0;
     }
-
     header{
         width:100%;
         
@@ -237,7 +232,6 @@ a{
         padding:5px;
         font-size:20px;
         margin:50px auto;
-
     }
     .high h1
     {
@@ -286,8 +280,6 @@ a{
         display:block;
         text-align: center;
     }
-   
-
     aside
     {
         width:40%;
@@ -303,8 +295,6 @@ a{
         width:100%;
         flex-direction: column;
         text-align:center;
-
-
     }
     .entree-content, .dish-content, .dessert-content
     {
@@ -315,8 +305,7 @@ a{
         display:inline-block; 
         text-align:center; 
         padding-right:0;  }
-
-}
+    }
 @media screen and (min-width:901px) and (max-width:1220px){
     .after
     {
@@ -325,7 +314,6 @@ a{
         width:100%;
         flex-direction: column;
         text-align:center;
-
     }
     .after i
     {

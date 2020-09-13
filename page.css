@@ -52,9 +52,9 @@ margin-left:205px;
     background-color:#fcdfdb;
     font-family: 'Balsamiq Sans', cursive;}
 
-.bloc-menu-line
+.bloc-menu-line                 <!--                    présente                         -->
 {
-    transition:transform 1s;
+    transition:transform 1s;      
 }
    .bloc-menu-line:hover{
     transform: scale(1.1);
@@ -77,7 +77,7 @@ margin-left:205px;
 }
 .bloc-menu-two h2
 {
-   background: -webkit-linear-gradient(right, rgb(216,133,46) 0%, rgb(133, 49,253) 100%);
+   background: -webkit-linear-gradient(right, rgb(216,133,46) 0%, rgb(133, 49,253) 100%); <!--                    présente                         -->
     -webkit-text-fill-color:transparent;
     -webkit-background-clip: text;
     font-family: 'Playfair Display', serif;
@@ -151,7 +151,7 @@ aside
   margin-top: 32px;
 }
 
-@keyframes opacity {
+@keyframes opacity {                <!--                    présente                         -->
   0% {
     opacity: 1;
   }
@@ -194,7 +194,7 @@ footer
     width:50%;
     text-align:center;
 }
-.footer-line:hover{
+.footer-line:hover{                           <!--                    présente                         -->
     animation: shake 0.8s;
     animation-iteration-count:infinite;
 }

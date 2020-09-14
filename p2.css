@@ -49,7 +49,7 @@ box-shadow: 8px 8px 12px #aaa;
 background: -webkit-linear-gradient(right, rgb(216,133,46) 0%, rgb(133, 49,253) 100%);
     -webkit-text-fill-color:transparent;
     -webkit-background-clip: text;
-    font-family: , serif;
+    font-family:serif;
 
 }
 .entree-title

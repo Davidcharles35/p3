@@ -52,7 +52,7 @@ margin-left:205px;
     background-color:#fcdfdb;
     font-family: 'Balsamiq Sans', cursive;}
 
-.bloc-menu-line                 <!--                    présente                         -->
+.bloc-menu-line
 {
     transition:transform 1s;      
 }
@@ -151,7 +151,7 @@ aside
   margin-top: 32px;
 }
 
-@keyframes opacity {                <!--                    présente                         -->
+@keyframes opacity {
   0% {
     opacity: 1;
   }
@@ -194,7 +194,7 @@ footer
     width:50%;
     text-align:center;
 }
-.footer-line:hover{                           <!--                    présente                         -->
+.footer-line:hover{
     animation: shake 0.8s;
     animation-iteration-count:infinite;
 }

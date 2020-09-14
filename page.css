@@ -77,8 +77,8 @@ margin-left:205px;
 }
 .bloc-menu-two h2
 {
-   background: -webkit-linear-gradient(right, rgb(216,133,46) 0%, rgb(133, 49,253) 100%); <!--                    présente                         -->
-    -webkit-text-fill-color:transparent;
+   background: -webkit-linear-gradient(right, rgb(216,133,46) 0%, rgb(133, 49,253) 100%);
+   -webkit-text-fill-color:transparent;
     -webkit-background-clip: text;
     font-family: 'Playfair Display', serif;
 }
